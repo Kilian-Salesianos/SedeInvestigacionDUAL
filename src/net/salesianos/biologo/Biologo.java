@@ -1,6 +1,8 @@
 package net.salesianos.biologo;
 import java.util.ArrayList;
 
+//En esta use ia para el ordenar por longitud... 
+
 import net.salesianos.investigador.Investigador;
 import net.salesianos.trabajodual.Trabajodual;
 
@@ -25,8 +27,7 @@ public class Biologo extends Investigador implements Trabajodual {
 
     @Override
     public void trabajar() {
-
-        // ORDENAR POR LONGITUD
+        
         for (int i = 0; i < especimenes.size(); i++) {
 
             for (int j = 0; j < especimenes.size() - 1; j++) {
