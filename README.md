@@ -1,18 +1,115 @@
-## Getting Started
+# 🧪 Proyecto Investigadores - Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyecto realizado en Java para practicar Programación
 
-## Folder Structure
+## 📚 Contenido del proyecto
 
-The workspace contains two folders by default, where:
+El proyecto simula una sede de investigadores donde existen distintos tipos de científicos:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Matemáticos
+- Biólogos
+- Químicos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Todos heredan de una clase abstracta llamada `Investigador`.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+# 📦 Estructura del proyecto
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```text
+src/
+ └─ net/salesianos/
+     ├─ biologo/
+     ├─ investigador/
+     ├─ trabajodual/
+     ├─ matematico/
+     ├─ quimico/
+     └─ App.java
+```
+
+---
+
+# 🧠 Conceptos utilizados
+
+Este proyecto utiliza:
+
+- Clases abstractas
+- Herencia
+- Polimorfismo
+- Interfaces
+- Arrays
+- ArrayList
+- Sobrecarga de métodos
+- Sobrescritura de métodos
+- Control de errores con try/catch/finally
+- Paquetes en Java
+
+---
+
+# 👨‍🔬 Investigadores
+
+## Matemático
+
+Trabaja con matrices 3x3.
+
+Puede:
+
+- Multiplicar matrices
+- Sumar matrices
+
+---
+
+## Biólogo
+
+Trabaja con listas de especímenes.
+
+Puede:
+
+- Añadir especímenes
+- Ordenar por longitud
+- Eliminar el elemento más largo
+- Realizar trabajo dual
+
+---
+
+## Químico
+
+Trabaja con listas de elementos químicos.
+
+Puede:
+
+- Añadir elementos
+- Invertir listas
+- Realizar trabajo dual
+
+---
+
+# ⚠️ Control de errores
+
+El programa utiliza:
+
+```java
+try
+catch
+finally
+```
+
+para controlar errores de entrada de datos usando:
+
+```java
+InputMismatchException
+```
+
+---
+
+# ▶️ Ejecución
+
+Ejecutar el archivo:
+
+```text
+App.java
+```
+
+---
+
+# 👨‍💻 ESTE README FUE REALIZADO USANDO AYUDA DE IA
